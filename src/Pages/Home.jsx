@@ -104,8 +104,8 @@ function Home() {
   return (
     <>
       <img src={logo} className="absolute top-0 left-0 p-2 w-1/6" />
-      <div className="h-screen flex flex-col items-center bg-gray-100 justify-center px-4">
-        <h1 className="md:text-5xl text-2xl pb-12 pt-8 font-extrabold text-gray-800 font-rubik relative z-20 text-center">
+      <div className="h-screen flex flex-col items-center bg-[#212121] justify-center px-4">
+        <h1 className="md:text-5xl text-2xl pb-12 pt-8 font-extrabold text-[white] font-rubik relative z-20 text-center">
           Welcome to{" "}
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-rubik">
             SketchVision AI
@@ -123,7 +123,7 @@ function Home() {
               stiffness: 30,
               damping: 20,
             }}
-            className="w-full sm:w-1/2 h-60 border-2 border-dashed border-gray-300 flex flex-col items-center justify-center cursor-pointer bg-gray-50 hover:bg-gray-100 rounded-xl transition-all"
+            className="w-full sm:w-1/2 h-60 border-2 border-dashed border-gray-300 flex flex-col items-center justify-center cursor-pointer bg-[#FBF5E5] hover:bg-[#FCE7C8] rounded-xl transition-all"
             onDrop={(e) => e.preventDefault()}
             onDragOver={(e) => e.preventDefault()}
           >
@@ -194,7 +194,7 @@ function Home() {
               stiffness: 30,
               damping: 20,
             }}
-            className="w-full sm:w-1/2 h-60 border-2 border-dashed border-gray-300 flex flex-col items-center justify-center cursor-pointer bg-gray-50 hover:bg-gray-100 rounded-xl transition-all"
+            className="w-full sm:w-1/2 h-60 border-2 border-dashed border-gray-300 flex flex-col items-center justify-center cursor-pointer bg-[#FBF5E5] hover:bg-[#FCE7C8] rounded-xl transition-all"
             onDrop={(e) => e.preventDefault()}
             onDragOver={(e) => e.preventDefault()}
           >

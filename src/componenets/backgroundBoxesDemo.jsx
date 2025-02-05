@@ -53,9 +53,9 @@ export function BackgroundBoxesDemo() {
   return (
     <div className="h-screen relative w-full overflow-hidden bg-white flex flex-col items-center justify-center">
       <img src={logo} className="z-20 absolute top-0 left-0 p-2 w-1/6" />
-      <div className="absolute inset-0 w-full h-full bg-[#1a1a1a] z-10 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
+      <div className="absolute inset-0 w-full h-full bg-black z-10 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
       <Boxes />
-      <h1 className="md:text-6xl text-xl font-extrabold text-white font-rubik relative z-20">
+      <h1 className="md:text-6xl text-xl font-extrabold text-white font-rubik relative z-20 animate-pulse">
         Welcome to{" "}
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-rubik">
           SketchVision AI
