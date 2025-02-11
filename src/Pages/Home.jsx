@@ -105,10 +105,10 @@ function Home() {
     <>
       <img src={logo} className="absolute top-0 left-0 p-2 w-1/6" />
       <div className="h-screen flex flex-col items-center bg-[#212121] justify-center px-4">
-        <h1 className="md:text-5xl text-2xl pb-12 pt-8 font-extrabold text-[white] font-rubik relative z-20 text-center">
-          Welcome to{" "}
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-rubik">
-            SketchVision AI
+        <h1 className="md:text-5xl pb-12 pt-8 font-extrabold text-[white] font-rubik relative z-20 text-center">
+          Compare Using{" "}
+          <span className="bg-clip-text md:text-6xl text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-rubik">
+            SketchSense
           </span>
         </h1>
 

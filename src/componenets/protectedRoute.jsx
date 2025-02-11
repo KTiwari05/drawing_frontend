@@ -10,7 +10,7 @@ function ProtectedRoute({ children }) {
       try {
         const response = await fetch("http://localhost:5000/@me", {
           method: "GET",
-          credentials: "include", // Include cookies with the request
+          credentials: "include", 
         });
 
         if (response.ok) {

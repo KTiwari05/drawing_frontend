@@ -55,10 +55,10 @@ export function BackgroundBoxesDemo() {
       <img src={logo} className="z-20 absolute top-0 left-0 p-2 w-1/6" />
       <div className="absolute inset-0 w-full h-full bg-black z-10 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
       <Boxes />
-      <h1 className="md:text-6xl text-xl font-extrabold text-white font-rubik relative z-20 animate-pulse">
+      <h1 className="md:text-6xl text-xl font-extrabold text-white font-poppins relative z-20  ">
         Welcome to{" "}
-        <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-rubik">
-          SketchVision AI
+        <span className="bg-clip-text md:text-7xl text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-poppins">
+          SketchSense
         </span>
       </h1>
       <div className="relative z-30 pt-6 pb-12">
@@ -67,7 +67,7 @@ export function BackgroundBoxesDemo() {
 
       {isModalOpen && (
         <div className="fixed inset-0 z-40 bg-black bg-opacity-60 flex items-center justify-center">
-          <div className="bg-white w-7/12 h-3/5 rounded-lg shadow-lg flex relative">
+          <div className="bg-[#FFFAEC] w-7/12 h-3/5 rounded-lg shadow-lg flex relative">
             {/* Left half with Lottie animation */}
             <div className="w-1/2 rounded-l-lg flex items-center justify-center overflow-hidden">
               <Lottie
